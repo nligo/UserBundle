@@ -1,0 +1,13 @@
+{
+    "name": "coffey/user-bundle",
+    "description": "This is a simple user operation.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nligo",
+            "email": "coffey@nligo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
