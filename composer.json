@@ -17,7 +17,7 @@
         "symfony/security-bundle": "2.*"
     },
     "autoload": {
-        "psr-0": { "Nligo\\UserBundle": "" }
+        "psr-4": { "UserBundle": "" }
     },
-    "target-dir": "Nligo/UserBundle"
+    "target-dir": "UserBundle"
 }
