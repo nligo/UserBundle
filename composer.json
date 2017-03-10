@@ -1,17 +1,35 @@
 {
     "name": "nligo/user-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony UserBundle",
-    "keywords": ["Symfony User Demo"],
-    "homepage": "http://www.nligo.com",
+    "description": "symfony user demo",
+    "keywords": ["user", "symfony3", "Manager", "bundle"],
+    "homepage": "http://github.com/nligo/UserBundle",
     "license": "MIT",
     "authors": [
         {
             "name": "coffey",
-            "email": "coffey@nligo.com"
+            "homepage": "http://nligo.com"
+        },
+        {
+            "name": "coffey",
+            "homepage": "http://github.com/nligo/UserBundle"
         }
     ],
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "~2.3|~3.0"
+    },
+    "require-dev": {
+        "symfony/expression-language": "~2.4|~3.0"
+    },
     "autoload": {
-        "psr-0": { "UserBundle": "" }
+        "psr-4": {
+            "Nligo\\UserBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.5.x-dev"
+        }
     }
 }
