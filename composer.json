@@ -11,11 +11,6 @@
             "email": "coffey@nligo.com"
         }
     ],
-//    "require": {
-//        "php": ">=5.3.2",
-//        "symfony/framework-bundle": "2.*",
-//        "symfony/security-bundle": "2.*"
-//    },
     "autoload": {
         "psr-4": { "Nligo\\UserBundle": "" }
     }
