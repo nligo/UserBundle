@@ -12,6 +12,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Nligo\\UserBundle": "" }
+        "psr-0": { "UserBundle": "" }
     }
 }
