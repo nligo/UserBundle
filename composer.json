@@ -1,13 +1,23 @@
 {
-    "name": "nlitt/user-bundle",
-    "description": "this is user's crud.",
-    "type": "library",
+    "name": "nligo/user-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony UserBundle",
+    "keywords": ["Symfony User Demo"],
+    "homepage": "http://www.nligo.com",
+    "license": "MIT",
     "authors": [
         {
-            "name": "nligo",
+            "name": "coffey",
             "email": "coffey@nligo.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*",
+        "symfony/security-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Nligo\\UserBundle": "" }
+    },
+    "target-dir": "Nligo/UserBundle"
 }
